@@ -1,0 +1,65 @@
+.container {
+    text-align: center;
+    display: block;
+    justify-content:center ;
+    align-items: center;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  textarea {
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    
+  }
+  #output{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  .container{
+    background-image: url(cool-background.png);
+    min-height: 100vh;
+  }
+  h1{
+    position: relative;
+    top: 50px;
+    font-size: 80px;
+  }
+  button{
+    font: 600 0.9rem sans-serif;
+    position: relative;
+    top: 80px;
+    padding: 4px;
+
+  }
+  button:hover{
+    background-color: rgb(176, 126, 223);
+  }
+  input{
+    font: 600 1.1rem sans-serif;
+    position: relative;
+    top: 80px;
+  }
+  textarea{
+    position: relative;
+    top: 120px;
+    width: 80%;
+    min-height: 60vh;
+    font: 600 0.9rem sans-serif;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+
+  }
+  
